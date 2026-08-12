@@ -1,8 +1,9 @@
 import http from "node:http";
+import app from "./app.js";
 import { version } from "node:os";
 
 const port = 3000;
-
+/*
 const routes = {
     "/":{
             message: "Pagina restaurante",
@@ -33,7 +34,8 @@ const server = http.createServer((req, res) => {
 
     res.end(JSON.stringify(response));
 });
+*/
 
-server.listen(port, () => {
+app.listen(port, () => {
     console.log(`Servidor executando em http://localhost:${port}`);
 })
