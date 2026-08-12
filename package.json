@@ -29,6 +29,7 @@
   "homepage": "https://github.com/FabioRochaDev1221/restaurant-ordering-system-Fabio#readme",
   "devDependencies": {
     "@types/node": "^26.2.0",
+    "express": "^5.2.1",
     "tsx": "^4.23.12",
     "typescript": "^7.0.2"
   }
