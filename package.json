@@ -1,0 +1,35 @@
+{
+  "name": "restaurant-ordering-system",
+  "version": "1.0.0",
+  "description": "Neste projeto, construiremos um Sistema de Autoatendimento para Restaurantes que será continuamente evoluído, incorporando novos requisitos, tecnologias e conceitos de Engenharia de Software ao longo do curso.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabioRochaDev1221/restaurant-ordering-system-Fabio.git"
+  },
+  "keywords": [
+    "back-end",
+    "ts",
+    "api",
+    "restaurant",
+    "order"
+  ],
+  "author": "Fabio Rocha",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabioRochaDev1221/restaurant-ordering-system-Fabio/issues"
+  },
+  "homepage": "https://github.com/FabioRochaDev1221/restaurant-ordering-system-Fabio#readme",
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "tsx": "^4.23.12",
+    "typescript": "^7.0.2"
+  }
+}
