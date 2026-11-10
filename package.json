@@ -4,7 +4,9 @@
   "description": "Neste projeto, construiremos um Sistema de Autoatendimento para Restaurantes que será continuamente evoluído, incorporando novos requisitos, tecnologias e conceitos de Engenharia de Software ao longo do curso.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
     "start": "node dist/server.ts"
@@ -36,7 +38,10 @@
   "dependencies": {
     "@supabase/supabase-js": "^2.112.4",
     "@types/express": "^5.0.6",
+    "@vitest/coverage-v8": "^5.1.0",
+    "@vitest/ui": "^5.1.0",
     "dotenv": "^17.4.2",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "vitest": "^5.1.0"
   }
 }
